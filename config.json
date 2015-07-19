@@ -1,0 +1,12 @@
+{
+    "server_ipv4":"0.0.0.0",
+    "server_ipv6": "[::]",
+    "server_port":8388,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"tgyhujik",
+    "timeout":1800,
+    "method":"chacha20",
+    "fast_open": true,
+    "workers": 3
+}

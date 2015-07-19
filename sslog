@@ -1,0 +1,34 @@
+warning: your timeout 1800 seems too long
+loading libcrypto from libcrypto.so.1.0.0
+db start server at port [51222] pass [40344]
+starting server at 0.0.0.0:51222
+db start server at port [51227] pass [34790]
+starting server at 0.0.0.0:51227
+db start server at port [51230] pass [54523]
+starting server at 0.0.0.0:51230
+db start server at port [51234] pass [94694]
+starting server at 0.0.0.0:51234
+db start server at port [51239] pass [47527]
+starting server at 0.0.0.0:51239
+db start server at port [51240] pass [78222]
+starting server at 0.0.0.0:51240
+db start server at port [51246] pass [11404]
+starting server at 0.0.0.0:51246
+db start server at port [51252] pass [14897]
+starting server at 0.0.0.0:51252
+db start server at port [51254] pass [13185]
+starting server at 0.0.0.0:51254
+db start server at port [51257] pass [91240]
+starting server at 0.0.0.0:51257
+db start server at port [51259] pass [31266]
+starting server at 0.0.0.0:51259
+db start server at port [51264] pass [js19981226]
+starting server at 0.0.0.0:51264
+db start server at port [51271] pass [76156]
+starting server at 0.0.0.0:51271
+db start server at port [51278] pass [41195]
+starting server at 0.0.0.0:51278
+db start server at port [51282] pass [59069]
+starting server at 0.0.0.0:51282
+db start server at port [51287] pass [92848]
+starting server at 0.0.0.0:51287
