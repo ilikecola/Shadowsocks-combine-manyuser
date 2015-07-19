@@ -69,8 +69,8 @@ import struct
 import errno
 import random
 
-from shadowsocks import encrypt, eventloop, lru_cache, common, shell
-from shadowsocks.common import parse_header, pack_addr
+import encrypt, eventloop, lru_cache, common, shell
+from common import parse_header, pack_addr
 
 
 BUF_SIZE = 65536

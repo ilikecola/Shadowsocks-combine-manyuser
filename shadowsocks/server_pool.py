@@ -34,6 +34,7 @@ import threading
 import sys
 import asyncmgr
 import Config
+import daemon
 from socket import *
 
 class ServerPool(object):
@@ -41,8 +42,6 @@ class ServerPool(object):
     instance = None
 
     def __init__(self):
-        shell.check_python()
-        self.config = shell.get_config(False)
         shell.print_shadowsocks()
         self.dns_resolver = asyncdns.DNSResolver()
         self.mgr = asyncmgr.ServerMgr()

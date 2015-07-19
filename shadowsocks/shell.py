@@ -24,8 +24,8 @@ import sys
 import getopt
 import logging
 import logging.handlers
-from shadowsocks.common import to_bytes, to_str, IPNetwork
-from shadowsocks import encrypt
+from common import to_bytes, to_str, IPNetwork
+import encrypt
 
 
 VERBOSE_LEVEL = 5

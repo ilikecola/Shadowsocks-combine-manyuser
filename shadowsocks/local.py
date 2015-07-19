@@ -24,7 +24,12 @@ import logging
 import signal
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../'))
-from shadowsocks import shell, daemon, eventloop, tcprelay, udprelay, asyncdns
+import shell
+import daemon
+import eventloop
+import tcprelay
+import udprelay
+import asyncdns
 
 
 def main():

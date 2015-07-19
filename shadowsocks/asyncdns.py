@@ -24,8 +24,10 @@ import socket
 import struct
 import re
 import logging
-
-from shadowsocks import common, lru_cache, eventloop, shell
+import common
+import lru_cache
+import eventloop
+import shell
 
 
 CACHE_SWEEP_INTERVAL = 30
