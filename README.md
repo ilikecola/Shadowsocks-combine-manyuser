@@ -3,13 +3,16 @@ Combine Manyuser with newest Shadowsocks
 
 ### shadowsocks
 A fast tunnel proxy that helps you bypass firewalls.
+
 https://github.com/shadowsocks/shadowsocks
 
 ### shadowsocks manyuser branch
 https://github.com/mengskysama/shadowsocks/tree/manyuser
 
-db_transfer.py Thread of Controling Database 
+db_transfer.py Thread of Controling Database
+
 server_pool.py Thread of managing Service and Traffic Statistics
+
 asyncmgr.py    Provide interface and function of starting or stopping front service 
 
 ### License
