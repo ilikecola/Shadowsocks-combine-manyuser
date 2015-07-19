@@ -42,6 +42,7 @@ class ServerPool(object):
     instance = None
 
     def __init__(self):
+    	self.config = shell.config_info()
         shell.print_shadowsocks()
         self.dns_resolver = asyncdns.DNSResolver()
         self.mgr = asyncmgr.ServerMgr()

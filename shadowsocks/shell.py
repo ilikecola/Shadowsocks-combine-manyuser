@@ -32,6 +32,11 @@ VERBOSE_LEVEL = 5
 
 verbose = 0
 
+config = {}
+
+def config_info():
+    global config
+    return config
 
 def check_python():
     info = sys.version_info
@@ -127,6 +132,7 @@ def check_config(config, is_local):
 
 def get_config(is_local):
     global verbose
+    global config
 
     if is_local:
         shortopts = 'hd:s:b:p:k:l:m:c:t:vq'
