@@ -7,6 +7,5 @@
     "password":"yourpasswd",
     "timeout":1800,
     "method":"aes-256-cfb",
-    "fast_open": false,
-    "workers": 3
+    "fast_open": false
 }
