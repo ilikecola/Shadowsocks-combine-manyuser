@@ -13,6 +13,7 @@ def main():
     shell.check_python()
     config = shell.get_config(False)
     daemon.daemon_exec(config)
+    daemon.set_user(config.get('user', None))
     thread.start_new_thread(db_transfer.DbTransfer.thread_db, ())
     while True:
         time.sleep(99999)
